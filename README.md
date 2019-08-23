@@ -16,7 +16,7 @@ Step 3 is to customize the web app based on GitHub Starter specific for fastai m
 
 All the processing is finished in cloud platform. ESDL cloud server supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
 
-*The model could be downloaded in server.py
-*test images could be downloaded in Test_images folder
-*GEE download algorithm can be found in the other repostory
+# The model could be downloaded in server.py
+# test images could be downloaded in Test_images folder
+# GEE download algorithm can be found in the repostory (GEE_batch_download)
 
