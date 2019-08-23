@@ -36,6 +36,11 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 ![app/static/Data.png](app/static/Data.png)
 
 ### Results
+
+| Train Loss | Validation Loss| Accuracy | Dice/F1|
+|------------|----------------|----------|--------|
+| 0.293      | 0.283          | 0.943    | 0.743  |
+
 ![app/static/result.png](app/static/result.png)
 
 ## Conclusion
