@@ -1,4 +1,4 @@
-# Starter for deploying [F2S model](https://f2s.onrender.com) on Render
+# [F2S model](https://f2s.onrender.com)
 
 ## Introduction:
 
