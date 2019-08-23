@@ -30,6 +30,12 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 * The model could be downloaded in server.py
 * test images could be downloaded in Test_images folder
 
+## Results
+
+### Data Generation
+![app/static/Data.png](app/static/Data.png)
+![app/static/Result.png](app/static/Result.png)
+
 ## Conclusion
 1. F2S has good performance especially in true-color image segmentation.
 2. F2S outperforms the detection results even the original labels produced by traditional dNBR with high accuracy and low noise.
