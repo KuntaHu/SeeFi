@@ -23,14 +23,6 @@ The fastai library simplifies training fast and accurate neural nets using moder
 ### Step 3 
 is to customize the web app based on GitHub Starter specific for fastai model. And then the app will be connected with the Deployment tool Render web service which will watch the updates in GitHub.
 
-## Discussion
-All the processing is finished in cloud platform. [ESDL cloud server](https://www.earthsystemdatalab.net/) supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
-
-* GEE download algorithm can be found in the repostory [GEE_batch_download] (https://github.com/KuntaHu/GEE_batch_download)
-* Unet Implementation can be found in the repostory [Unet_Burnt_Area_Semantic_Seg] (https://github.com/KuntaHu/Unet_Burnt_Area_Semantic_Seg)
-* The model could be downloaded in server.py
-* test images could be downloaded in Test_images folder
-
 ## Results
 
 ### Data Generation
@@ -50,5 +42,13 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 3. F2S platform learns the relationship between burnt pixels and adjacent pixels which makes its results explicable since wildfire usually has a continuous progression rather than random fire ignition pixels. 
 4. F2S model could learn the representation of different combinations of optical bands which will be much more robust and general than traditional segmentation based RGB. 
 5. Trained model contains the advantages of all fire-sensitive bands, which could filter the unburnt pixel with abnormal reflectance in specific bands.
+
+## Discussion
+All the processing is finished in cloud platform. [ESDL cloud server](https://www.earthsystemdatalab.net/) supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
+
+* GEE download algorithm can be found in the repostory [GEE_batch_download] (https://github.com/KuntaHu/GEE_batch_download)
+* Unet Implementation can be found in the repostory [Unet_Burnt_Area_Semantic_Seg] (https://github.com/KuntaHu/Unet_Burnt_Area_Semantic_Seg)
+* The model could be downloaded in server.py
+* test images could be downloaded in Test_images folder
 
 
