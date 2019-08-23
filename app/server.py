@@ -36,7 +36,7 @@ def aray_to_base64(arr):
     plt.imshow(arr)
     buffer = BytesIO()
     plt.axis('off')
-    plt.savefig(buffer, bbox_inches='tight')
+    plt.savefig(buffer, bbox_inches='tight', pad_inches = 0)
     plot_data = buffer.getvalue()
     imb = base64.b64encode(plot_data)
     ims = imb.decode()
