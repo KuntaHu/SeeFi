@@ -1,5 +1,7 @@
 # [F2S Platform](https://f2s.onrender.com)
 
+Please download the Test_Image.zip and extract the images as input if no image is available in hand
+
 ## Introduction
 
 Semantic Segmentation Platform on Forest Wildfire
