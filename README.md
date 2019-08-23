@@ -15,13 +15,13 @@ F2S would provide a rapid response platform for uploading ROI image and then ana
 ![app/static/FSSO4G.png](app/static/FSSO4G.png)
 
 ### Step1: 
-we apply Google Earth Engine Python API to generate the train images and labels.  After confirming the region of interest, we could get the available Sentinel-2 images in a specific day during the fire or after the fire. Through the batch-downloading algorithm developed by us, it becomes every easy to generate the Geotiff or PNG format images including any bands we want. About the labels, we use the delta normalized burnt ratio to threshold the burnt area and then constrain it  within the released  official burnt region by authorities. Usually, the large wildfire would make the Sentinel-2 image huge volume. To speed the train process, we clip the ROI which contains burnt and unburnt into 300*300 pixels. The pixel resolution is 20 meters same with Sentinel-2. 
+We apply Google Earth Engine Python API to generate the train images and labels.  After confirming the region of interest, we could get the available Sentinel-2 images in a specific day during the fire or after the fire. Through the batch-downloading algorithm developed by us, it becomes every easy to generate the Geotiff or PNG format images including any bands we want. About the labels, we use the delta normalized burnt ratio to threshold the burnt area and then constrain it  within the released  official burnt region by authorities. Usually, the large wildfire would make the Sentinel-2 image huge volume. To speed the train process, we clip the ROI which contains burnt and unburnt into 300*300 pixels. The pixel resolution is 20 meters same with Sentinel-2. 
 
 ### Step2: 
 The fastai library simplifies training fast and accurate neural nets using modern best practices.  We download the pre-trained resnet18 model and then apply the dynamic Unet architecture to train the semantic segmentation. Finally we could export the model as pkl file and then it will be uploaded into Google Drive. Since it is bigger than 100 Megabytes. We also need the google cloud platform to help generate downloaded link. 
 
 ### Step 3 
-is to customize the web app based on GitHub Starter specific for fastai model. And then the app will be connected with the Deployment tool Render web service which will watch the updates in GitHub.
+Customize the web app based on GitHub Starter specific for fastai model. And then the app will be connected with the Deployment tool Render web service which will watch the updates in GitHub.
 
 ## Results
 
