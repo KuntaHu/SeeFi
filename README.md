@@ -1,4 +1,4 @@
-# [F2S Model](https://f2s.onrender.com)
+# [F2S Platform](https://f2s.onrender.com)
 
 ## Introduction:
 
