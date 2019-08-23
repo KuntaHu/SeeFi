@@ -1,5 +1,7 @@
 # Starter for deploying f2s model on [Render](https://render.com)
 
+### Introduction:
+
 Semantic Segmentation Platform on Forest Wildfire
 
 Proposed Forest Fire to Semantic Segmentation (F2S) Platform is a cloud artificial intelligence solution for high-volume satellite data in forest wildfire detection. F2S shall provide easy to use high resolution burnt area calculations and visualizations to professionals within forestry and insurance. The current F2S functional prototype is based on optical satellite data, but a model for radar-based satellite data is being developed.
@@ -7,6 +9,10 @@ Proposed Forest Fire to Semantic Segmentation (F2S) Platform is a cloud artifici
 Available technologies in forest wildfire detection include aircrafts, cameras, satellites and drones. Different platforms have different image formats based on the different wavelengths, which vice versa makes the universal cloud processing difficult, not to mention the multi-source fusion.
  
 F2S would provide a rapid response platform for uploading ROI image and then analyzing the input source to get final burnt area information.
+
+### Workflow:
+
+![static/overview.png](static/FOSS4G.png)
 
 Step1: we apply Google Earth Engine Python API to generate the train images and labels.  After confirming the region of interest, we could get the available Sentinel-2 images in a specific day during the fire or after the fire. Through the batch-downloading algorithm developed by us, it becomes every easy to generate the Geotiff or PNG format images including any bands we want. About the labels, we use the delta normalized burnt ratio to threshold the burnt area and then constrain it  within the released  official burnt region by authorities. Usually, the large wildfire would make the Sentinel-2 image huge volume. To speed the train process, we clip the ROI which contains burnt and unburnt into 300*300 pixels. The pixel resolution is 20 meters same with Sentinel-2. 
 
