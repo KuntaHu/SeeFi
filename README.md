@@ -2,7 +2,7 @@
 
 APP Demo Website: https://f2s.onrender.com
 
-Please download the [Test_Image.zip] (https://github.com/KuntaHu/F2S/blob/master/Test_Image.zip) and extract the images as input if no image is available in hand
+Please download the [Test_Image.zip](https://github.com/KuntaHu/F2S/blob/master/Test_Image.zip) and extract the images as input if no image is available in hand
 
 ## Introduction
 
