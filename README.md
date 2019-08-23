@@ -35,7 +35,7 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 ### Data Generation
 ![app/static/Data.png](app/static/Data.png)
 
-### results
+### Results
 ![app/static/result.png](app/static/result.png)
 
 ## Conclusion
