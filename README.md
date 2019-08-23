@@ -12,7 +12,7 @@ F2S would provide a rapid response platform for uploading ROI image and then ana
 
 ## Workflow:
 
-![static/FSSO4G.png](static/FSSO4G.png)
+![app/static/FSSO4G.png](app/static/FSSO4G.png)
 
 ### Step1: 
 we apply Google Earth Engine Python API to generate the train images and labels.  After confirming the region of interest, we could get the available Sentinel-2 images in a specific day during the fire or after the fire. Through the batch-downloading algorithm developed by us, it becomes every easy to generate the Geotiff or PNG format images including any bands we want. About the labels, we use the delta normalized burnt ratio to threshold the burnt area and then constrain it  within the released  official burnt region by authorities. Usually, the large wildfire would make the Sentinel-2 image huge volume. To speed the train process, we clip the ROI which contains burnt and unburnt into 300*300 pixels. The pixel resolution is 20 meters same with Sentinel-2. 
