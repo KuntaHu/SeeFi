@@ -89,7 +89,7 @@ button:focus {
     margin-top:2em;
     margin-bottom: 2em;
     text-align: justify;
-    text-indent: 2em;
+    text-indent: 0em;
     color: aliceblue;
 }
 
@@ -113,4 +113,9 @@ img{
     width:35px;
     height:12px;
     background:#440054;
+}
+
+b, strong {
+    font-weight: bolder;
+    color: #ffc107;
 }
