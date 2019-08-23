@@ -1,4 +1,4 @@
-# Starter for deploying f2s model on [Render](https://render.com)
+# Starter for deploying F2S model on [Render](https://render.com)
 
 ## Introduction:
 
@@ -29,5 +29,12 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 * Unet Implementation can be found in the repostory [Unet_Burnt_Area_Semantic_Seg] (https://github.com/KuntaHu/Unet_Burnt_Area_Semantic_Seg)
 * The model could be downloaded in server.py
 * test images could be downloaded in Test_images folder
+
+## Conclusion
+1. F2S has good performance especially in true-color image segmentation.
+2. F2S outperforms the detection results even the original labels produced by traditional dNBR with high accuracy and low noise.
+3. F2S platform learns the relationship between burnt pixels and adjacent pixels which makes its results explicable since wildfire usually has a continuous progression rather than random fire ignition pixels. 
+4. F2S model could learn the representation of different combinations of optical bands which will be much more robust and general than traditional segmentation based RGB. 
+5. Trained model contains the advantages of all fire-sensitive bands, which could filter the unburnt pixel with abnormal reflectance in specific bands.
 
 
