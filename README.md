@@ -23,6 +23,7 @@ The fastai library simplifies training fast and accurate neural nets using moder
 ### Step 3 
 is to customize the web app based on GitHub Starter specific for fastai model. And then the app will be connected with the Deployment tool Render web service which will watch the updates in GitHub.
 
+## Discussion
 All the processing is finished in cloud platform. [ESDL cloud server](https://www.earthsystemdatalab.net/) supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
 
 * GEE download algorithm can be found in the repostory [GEE_batch_download] (https://github.com/KuntaHu/GEE_batch_download)
