@@ -34,7 +34,7 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 
 ### Data Generation
 ![app/static/Data.png](app/static/Data.png)
-![app/static/Result.png](app/static/Result.png)
+![app/static/result.png](app/static/result.png)
 
 ## Conclusion
 1. F2S has good performance especially in true-color image segmentation.
