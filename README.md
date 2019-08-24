@@ -50,10 +50,9 @@ Customize the web app based on GitHub Starter specific for fastai model. And the
 ## Discussion
 All the processing is finished in cloud platform. [ESDL cloud server](https://www.earthsystemdatalab.net/) supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
 
-* Test Image can be found in "F2S/app/Test Image" [folder](https://github.com/KuntaHu/F2S/tree/master/app/Test%20Image) 
+* Test Image can be found in ["F2S/app/Test Image"](https://github.com/KuntaHu/F2S/tree/master/app/Test%20Image) folder
 * GEE download algorithm can be found in the repostory [GEE_batch_download] (https://github.com/KuntaHu/GEE_batch_download)
 * Unet Implementation can be found in the repostory [Unet_Burnt_Area_Semantic_Seg] (https://github.com/KuntaHu/Unet_Burnt_Area_Semantic_Seg)
 * The model could be downloaded in server.py
-* test images could be downloaded in Test_images folder
 
 
