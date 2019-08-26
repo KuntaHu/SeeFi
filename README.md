@@ -48,14 +48,14 @@ Customize the web app based on GitHub Starter specific for fastai model. And the
 2. F2S outperforms the detection results even the original labels produced by traditional dNBR with high accuracy and low noise.
 3. F2S platform learns the relationship between burnt pixels and adjacent pixels which makes its results explicable since wildfire usually has a continuous progression rather than random fire ignition pixels. 
 4. F2S model could learn the representation of different combinations of optical bands which will be much more robust and general than traditional segmentation based RGB. 
-5. Trained model contains the advantages of all fire-sensitive bands, which could filter the unburnt pixel with abnormal reflectance in specific bands.
+5. F2S contains the advantages of all fire-sensitive bands, which could filter the unburnt pixel with abnormal reflectance in specific bands.
 
 ## Discussion
 All the processing is finished in cloud platform. [ESDL cloud server](https://www.earthsystemdatalab.net/) supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
 
 * Test Image can be found in ["F2S/app/Test Image"](https://github.com/KuntaHu/F2S/tree/master/app/Test%20Image) folder
-* GEE download algorithm can be found in the repostory [GEE_batch_download] (https://github.com/KuntaHu/GEE_batch_download)
-* Unet Implementation can be found in the repostory [Unet_Burnt_Area_Semantic_Seg] (https://github.com/KuntaHu/Unet_Burnt_Area_Semantic_Seg)
+* GEE download algorithm can be found in the repostory [GEE_batch_download](https://github.com/KuntaHu/GEE_batch_download)
+* Unet Implementation can be found in the repostory [Unet_Burnt_Area_Semantic_Seg](https://github.com/KuntaHu/Unet_Burnt_Area_Semantic_Seg)
 * The model could be downloaded in server.py
 
 
