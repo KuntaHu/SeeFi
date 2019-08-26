@@ -4,7 +4,7 @@ APP Demo Website: https://f2s.onrender.com
 
 * Please download the [Test_Image.zip](https://github.com/KuntaHu/F2S/blob/master/Test_Image.zip) and extract the images as input if no image is available in hand
 * please make sure the dimensions of input image is less than 512*512 to maintain the perfermance and save time
-* please upload the ‘PNG' image with or/and withou burnt area, so no birds, no dogs, etc
+* please upload the ‘PNG' image with or/and withou burnt area, based on satellite data
 * please reload the website if you only see 'Analyzing' but no output. And then check you input image size and format.
 
 ## Introduction
