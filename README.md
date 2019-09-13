@@ -59,7 +59,7 @@ All the processing is finished in cloud platform. [ESDL cloud server](https://ww
 * The model could be downloaded in server.py
 
 ## Acknowledgement
-This project is supported by [FOSS4G EO Data Challenge](https://2019.foss4g.org/call-for-papers/open-source-eo-data-challenge/). I am honored to be one of the winners.
+This project is supported by [FOSS4G EO Data Challenge](https://2019.foss4g.org/call-for-papers/open-source-eo-data-challenge/). I am honored to be one of the winners. The award is financed by [ECMWF](https://www.ecmwf.int/). Thanks very much!
 
 
 
