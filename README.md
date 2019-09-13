@@ -11,7 +11,7 @@ APP Demo Website: https://f2s.onrender.com
 
 Semantic Segmentation Platform on Forest Wildfire
 
-Proposed SEmantic sEgmentation for Forest Fire(SeeFi) Platform is a cloud artificial intelligence solution for high-volume satellite data in forest wildfire detection. See4Fi shall provide easy to use high resolution burnt area calculations and visualizations to professionals within forestry and insurance. The current See4WiFi functional prototype is based on optical satellite data, but a model for radar-based satellite data is being developed.
+Proposed SEmantic sEgmentation for Forest Fire(SeeFi) Platform is a cloud artificial intelligence solution for high-volume satellite data in forest wildfire detection. See4Fi shall provide easy to use high resolution burnt area calculations and visualizations to professionals within forestry and insurance. The current SeeFi functional prototype is based on optical satellite data, but a model for radar-based satellite data is being developed.
 
 Available technologies in forest wildfire detection include aircrafts, cameras, satellites and drones. Different platforms have different image formats based on the different wavelengths, which vice versa makes the universal cloud processing difficult, not to mention the multi-source fusion.
  
