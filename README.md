@@ -1,4 +1,4 @@
-# [See4WiFi Platform](https://f2s.onrender.com)
+# [See4Fi Platform](https://f2s.onrender.com)
 
 APP Demo Website: https://f2s.onrender.com
 
@@ -11,11 +11,11 @@ APP Demo Website: https://f2s.onrender.com
 
 Semantic Segmentation Platform on Forest Wildfire
 
-Proposed SEmantic sEgmentation for Forest WildFire(See4WiFi) Platform is a cloud artificial intelligence solution for high-volume satellite data in forest wildfire detection. See4WiFi shall provide easy to use high resolution burnt area calculations and visualizations to professionals within forestry and insurance. The current See4WiFi functional prototype is based on optical satellite data, but a model for radar-based satellite data is being developed.
+Proposed SEmantic sEgmentation for Forest Fire(See4Fi) Platform is a cloud artificial intelligence solution for high-volume satellite data in forest wildfire detection. See4Fi shall provide easy to use high resolution burnt area calculations and visualizations to professionals within forestry and insurance. The current See4WiFi functional prototype is based on optical satellite data, but a model for radar-based satellite data is being developed.
 
 Available technologies in forest wildfire detection include aircrafts, cameras, satellites and drones. Different platforms have different image formats based on the different wavelengths, which vice versa makes the universal cloud processing difficult, not to mention the multi-source fusion.
  
-See4WiFi would provide a rapid response platform for uploading ROI image and then analyzing the input source to get final burnt area information.
+See4Fi would provide a rapid response platform for uploading ROI image and then analyzing the input source to get final burnt area information.
 
 ## Workflow
 
@@ -44,11 +44,11 @@ Customize the web app based on GitHub Starter specific for fastai model. And the
 ![app/static/result.png](app/static/result.png)
 
 ## Conclusion
-1. See4WiFi has good performance especially in true-color image segmentation.
-2. See4WiFi outperforms the detection results even the original labels produced by traditional dNBR with high accuracy and low noise.
-3. See4WiFi platform learns the relationship between burnt pixels and adjacent pixels which makes its results explicable since wildfire usually has a continuous progression rather than random fire ignition pixels. 
-4. See4WiFi model could learn the representation of different combinations of optical bands which will be much more robust and general than traditional segmentation based RGB. 
-5. See4WiFi contains the advantages of all fire-sensitive bands, which could filter the unburnt pixel with abnormal reflectance in specific bands.
+1. See4Fi has good performance especially in true-color image segmentation.
+2. See4Fi outperforms the detection results even the original labels produced by traditional dNBR with high accuracy and low noise.
+3. See4Fi platform learns the relationship between burnt pixels and adjacent pixels which makes its results explicable since wildfire usually has a continuous progression rather than random fire ignition pixels. 
+4. See4Fi model could learn the representation of different combinations of optical bands which will be much more robust and general than traditional segmentation based RGB. 
+5. See4Fi contains the advantages of all fire-sensitive bands, which could filter the unburnt pixel with abnormal reflectance in specific bands.
 
 ## Discussion
 All the processing is finished in cloud platform. [ESDL cloud server](https://www.earthsystemdatalab.net/) supports the computation of Step 1 and 2. Cloud Web Service and GitHub makes the web deployment successful. 
