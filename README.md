@@ -1,6 +1,6 @@
 # [SeeFi Platform](https://f2s.onrender.com)
 
-APP Demo Website: https://f2s.onrender.com
+APP Demo Website: TBC
 
 * Please download the [Test_Image.zip](https://github.com/KuntaHu/F2S/blob/master/Test_Image.zip) and extract the images as input if no image is available in hand
 * please make sure the dimensions of input image is less than 512*512 to maintain the perfermance and save time
